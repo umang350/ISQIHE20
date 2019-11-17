@@ -19,17 +19,6 @@
   .timeline .timeline-item:nth-child(2n) .row {
       flex-direction: row-reverse;
   }
-  .timeline::before {
-      content: "";
-      position: absolute;
-      left: calc(50% - 3px);
-      top: calc(100% - 720px);
-      width: 7px;
-      height: calc(100% - 350px);
-      border-radius: 4px;
-      background: #868F9B;
-      margin-top: -60px;
-  }
 }
 
 @media only screen and (max-width: 991px) {

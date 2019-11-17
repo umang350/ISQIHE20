@@ -1,6 +1,4 @@
-// $(function(){  // $(document).ready shorthand
-//   $('.monster').fadeIn('slow');
-// });
+
 var count=0;
 $(document).ready(function() {
     
